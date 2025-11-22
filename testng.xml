@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredSuite">
+    <listeners>
+        <listener class-name="listeners.TestNGExtentReportListener"/>
+    </listeners>
+
+    <test name="API Tests">
+        <packages>
+
+            <package name="BaseAPI"/>
+            <package name="task"/>
+
+        </packages>
+    </test>
+</suite>
